@@ -1,9 +1,8 @@
 def valuesort(d):
-    keys = sorted(d.keys())
-    return [d[k] for k in keys]
+    return sorted(d.values())
 
 dic = {}
-n = int(input("Enter number of pairs: "))
+n = int(input("Enter the number of pairs: "))
 for i in range(n):
     key = input("Enter key: ")
     value = int(input("Enter value: "))

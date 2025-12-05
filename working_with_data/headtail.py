@@ -9,7 +9,6 @@ def tail(fname, n=10):
         print(l, end='')
 fname = input("Enter filename: ")
 ch = input("Enter 'head' or 'tail': ")
-
 if ch == 'head':
     head(fname)
 else:

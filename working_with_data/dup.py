@@ -1,11 +1,11 @@
 def dups(l):
-    elements = []
+    ele = []
     dup = []
-    for item in l:
-        if item in elements and item not in dup:
-            dup.append(item)
+    for i in l:
+        if i in ele and i not in dup:
+            dup.append(i)
         else:
-            elements.append(item)
+            ele.append(i)
     return dup
 numbers = input("Enter numbers: ")
 num_list = [x for x in numbers.split(",")]
